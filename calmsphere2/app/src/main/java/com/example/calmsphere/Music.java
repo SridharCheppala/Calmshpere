@@ -9,12 +9,23 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Music extends AppCompatActivity {
+    private ImageView musicImage;
+    private SeekBar musicSeekBar;
+    private Button btnPrevious, btnPlayPause, btnNext;
+    private boolean isPlaying = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_music);
+
+        musicImage = findViewById(R.id.musicImage);
+        musicSeekBar = findViewById(R.id.musicSeekBar);
+        btnPrevious = findViewById(R.id.btnPrevious);
+        btnPlayPause = findViewById(R.id.btnPlayPause);
+        btnNext = findViewById(R.id.btnNext);
+
 
     }
 }
