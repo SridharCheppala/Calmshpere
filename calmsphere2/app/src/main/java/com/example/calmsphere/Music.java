@@ -39,6 +39,10 @@ public class Music extends AppCompatActivity {
             }
         });
 
+        btnPrevious.setOnClickListener(v -> Toast.makeText(this, "Previous Track", Toast.LENGTH_SHORT).show());
+        btnNext.setOnClickListener(v -> Toast.makeText(this, "Next Track", Toast.LENGTH_SHORT).show());
+
+
         
 
 
