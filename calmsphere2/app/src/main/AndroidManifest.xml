@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Required permissions -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Required if targeting Android 12 or higher -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"
+        android:requiredForAllUsers="false"
+        tools:ignore="BluetoothPermission" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,21 +21,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calmsphere"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".Editprofile"
+            android:name=".EditProfile"
             android:exported="false" />
         <activity
             android:name=".Music"
             android:exported="false"
             android:theme="@style/Theme.Calmsphere" />
         <activity
-            android:name=".loginpage"
+            android:name=".LoginPage"
             android:exported="false" />
         <activity
-            android:name=".Registerpage"
+            android:name=".RegisterPage"
             android:exported="false" />
         <activity
-            android:name=".Editpage"
+            android:name=".Meditation"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -36,6 +47,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
