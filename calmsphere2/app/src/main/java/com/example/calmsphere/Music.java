@@ -26,6 +26,21 @@ public class Music extends AppCompatActivity {
         btnPlayPause = findViewById(R.id.btnPlayPause);
         btnNext = findViewById(R.id.btnNext);
 
+        btnPlayPause.setOnClickListener(v -> {
+            isPlaying = !isPlaying;
+            if (isPlaying) {
+                btnPlayPause.setText("Pause");
+
+                Toast.makeText(this, "Music playing", Toast.LENGTH_SHORT).show();
+            } else {
+                btnPlayPause.setText("Play");
+
+                Toast.makeText(this, "Music paused", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        
+
 
     }
 }
