@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EditProfile extends BaseActivity {
+public class Editprofile extends BaseActivity {
     private EditText nameProfile, emailProfile, phoneProfile, languageProfile;
     private CheckBox dailyReminder;
     private Button btnLogout;
