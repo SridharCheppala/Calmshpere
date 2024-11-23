@@ -51,14 +51,14 @@ MeditationCategory includes multiple MeditationSessions (1-to-many).
 ### Calmsphere
 CalmSphere is a platform designed to support users in managing stress and improving mental well-being through a tailored experience that includes meditation, soothing music, and mindfulness practices. The app focuses on helping users seamlessly incorporate mindfulness into their daily lives, promoting relaxation, enhanced focus, and reduced stress.
 
-**Team Members:**
+## Team Members:**
 Pooja Palle
 Sushma Vadlamudi
 Kotesh Rekha
 Sridhar Cheppala
 
-**Features:**
-## User Authentication
+## Features:**
+**User Authentication**
 •	Registration:
 o	New users can register by providing their name, email, username, and password.
 o	Input validation to ensure all fields are filled correctly.
@@ -67,20 +67,20 @@ o	Users can log in using their username and password.
 o	Error messages for invalid credentials.
 •	Logout:
 o	Users can securely log out of the application.
-## Main Dashboard (Home Screen)
+**Main Dashboard (Home Screen)**
 •	Displays a welcome message with the user’s name.
 •	Provides access to key features:
 o	Guided Meditation
 o	Soothing Sounds
 o	Personalized Music Recommendations
-## Meditation Categories
+**Meditation Categories**
 •	Users can choose from different meditation categories.
-## Music Player
+**Music Player**
 •	A dedicated screen for playing soothing or spiritual music.
 •	Includes standard controls:
 o	Play/Pause button.
 o	Forward/Backward navigation within a track.
-## Profile Management
+**Profile Management**
 •	Edit Profile:
 o	Users can view and update their details.
 
