@@ -82,7 +82,7 @@ o	Play/Pause button.\
 o	Forward/Backward navigation within a track.\
 **Profile Management**
 •	Edit Profile:\
-o	Users can view and update their details.\
+o	Users can view and update their details.
 
 ## Test Credentials:
 •  Username: testuser1\
