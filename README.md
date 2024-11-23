@@ -52,7 +52,7 @@ MeditationCategory includes multiple MeditationSessions (1-to-many).
 CalmSphere is a platform designed to support users in managing stress and improving mental well-being through a tailored experience that includes meditation, soothing music, and mindfulness practices. The app focuses on helping users seamlessly incorporate mindfulness into their daily lives, promoting relaxation, enhanced focus, and reduced stress.
 
 ## Team Members:**
-Pooja Palle/
+Pooja Palle\
 Sushma Vadlamudi/
 Kotesh Rekha/
 Sridhar Cheppala
