@@ -86,7 +86,7 @@ o	Users can view and update their details.\
 
 ## Test Credentials:
 •  Username: testuser1\
-•  Password: password12345\
+•  Password: password12345
 
 ## Sequence information:
 •  Login Page\
@@ -103,7 +103,7 @@ o	Users can view and update their details.\
 •  Music Activity\
 ↳ Return to Main Dashboard\
 •  Edit Profile\
-↳ Logout: Navigate to Login Page\
+↳ Logout: Navigate to Login Page
 
 
 
