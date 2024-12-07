@@ -5,6 +5,8 @@
     <!-- Permission for internet access -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -33,6 +35,8 @@
         <activity android:name=".CategoryActivity" android:exported="true" />
         <activity android:name=".MusicActivity" android:exported="true" />
         <activity android:name=".ViewProfileActivity" android:exported="true" />
+        <activity android:name=".StreakTrackerActivity" android:exported="true"/>
+        <activity android:name=".BreathingExerciseActivity" android:exported="true"/>
     </application>
 
 </manifest>
