@@ -85,8 +85,8 @@ o	Forward/Backward navigation within a track.\
 o	Users can view and update their details.
 
 ## Test Credentials:
-•  Username: testuser1\
-•  Password: password12345
+•  Username: saipoojareddyp@gmail.com
+•  Password: 12Pooja@
 
 ## Sequence information:
 •  Login Page\
@@ -98,6 +98,8 @@ o	Users can view and update their details.
 ↳ Guided Meditation: Navigate to Meditation Activity\
 ↳ Soothing Sounds: Navigate to Music Activity\
 ↳ Edit Profile: Navigate to Profile Activity\
+↳ Streak Tracker: Select this and you would able to track your activity like how many days constantly you practiced.
+↳ Breathing Excercise: Select this and able to see that start and stop button to practice breathing.
 •  Meditation Activity\
 ↳ Select a track: Navigate to Music Activity\
 •  Music Activity\
